@@ -7,16 +7,16 @@ This code contains:
 
 # Installing
 
-You need to install scraperjs (npm install scraperjs)
-download this from https://github.com/ruipgil/scraperjs
-Copy the process*.js scripts to the scraperjs folder under nodejs modules
++ You need to install scraperjs (npm install scraperjs)
++ download this from https://github.com/ruipgil/scraperjs
++ Copy the process*.js scripts to the scraperjs folder under nodejs modules
 
 # Getting started
 
 Get the latest data from the web on shares and shorts by running the process*.js files in this order: 
-1.ProcessURLsGetListOfShorts-new.js - looks for a list of shorted stock and outputs values to shorts.txt
-2.ProcessURLsGetStockCodesYahoo-new.js - gets the londone specific stock codes for the shorts from yahoo finance and outputs the codes to shares.txt
-3.ProcessURLsGetStockPricesYahoo-new.js - gets the details on the stocks found from yahoo finance and writes the details to a file.
++ 1.ProcessURLsGetListOfShorts-new.js - looks for a list of shorted stock and outputs values to shorts.txt
++ 2.ProcessURLsGetStockCodesYahoo-new.js - gets the londone specific stock codes for the shorts from yahoo finance and outputs the codes to shares.txt
++ 3.ProcessURLsGetStockPricesYahoo-new.js - gets the details on the stocks found from yahoo finance and writes the details to a file.
 
 
 # Usage
